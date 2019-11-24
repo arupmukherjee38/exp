@@ -17,6 +17,7 @@ public class TestExm {
 		for (Integer integer : l1) {
 			System.out.println("element="+integer);
 			sum=+integer;
+			System.out.println("new");
 		}
 		System.out.println("sum="+sum);
 	}
