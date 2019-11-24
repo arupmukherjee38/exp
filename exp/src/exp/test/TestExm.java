@@ -14,9 +14,9 @@ public class TestExm {
 		l1.add(5);
 		l1.add(4);
 		int sum=0;
-		for (int i = 0; i < l1.size(); i++) {
-			System.out.println("element="+l1.get(i));
-			sum=+i;
+		for (Integer integer : l1) {
+			System.out.println("element="+integer);
+			sum=+integer;
 		}
 		System.out.println("sum="+sum);
 	}
