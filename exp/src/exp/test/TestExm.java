@@ -20,6 +20,12 @@ public class TestExm {
 			System.out.println("new");
 		}
 		System.out.println("sum="+sum);
+		System.out.println(getNmae());
 	}
+	
+	public static String getNmae() {
+		return "debu";
+	}
+			
 
 }
